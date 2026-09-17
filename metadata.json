@@ -1,0 +1,6 @@
+{
+  "name": "Giáo Án & Slide Trình Chiếu Chuyên Đề AI THPT",
+  "description": "Hệ thống bài giảng 12 tiết (108 slides) chuyên đề Ứng dụng AI Trường THPT Tân Lược do Nhóm dạy học AI biên soạn với hiệu ứng động, trắc nghiệm tương tác và trình chiếu toàn màn hình.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
