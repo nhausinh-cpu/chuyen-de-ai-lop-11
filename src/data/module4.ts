@@ -396,13 +396,14 @@ export const module4: Lesson[] = [
         ],
         visualUrl: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop",
         visualLabel: "Lớp học chúc mừng thành công",
-        speakerNotes: "Chào cả lớp! Hôm nay là buổi học cuối cùng - Tiết 12. Đây là ngày hội thực sự để vinh danh các sản phẩm sáng tạo, ý tưởng dự án vô cùng độc đáo mà các em đã chuẩn bị suốt các tuần qua."
+        speakerNotes: "Chào cả lớp! Hôm nay là buổi học cuối cùng - Tiết 12. Đây là ngày hội thực sự để vinh danh các sản phẩm sáng tạo, ý tưởng dự án vô cùng độc đáo mà các em đã chuẩn bị suốt các tuần qua. Phân bổ thời gian 45 phút: Khởi động 3' - Tổng quan lộ trình 4' - Báo cáo nhóm 1&2: 10' - Báo cáo nhóm 3&4: 10' - Chấm điểm chéo 7' - Trắc nghiệm tổng ôn 5' - Thông điệp học tập suốt đời 3' - Bế mạc & chứng nhận 3'."
       },
       {
         id: "l12_s2",
         title: "Khởi Động: Vinh Danh Sự Nỗ Lực Học Tập",
         visualType: "intro",
         content: [
+          "⏱️ Thời lượng: 3 phút",
           "🎉 Chào mừng các em đến với Sân khấu báo cáo sáng tạo!",
           "• Trải qua 11 tiết học, chúng ta đã cùng đi từ những khái niệm lịch sử thô sơ đến trải nghiệm viết Prompt thực hành trực tiếp và thấu cảm đạo đức công nghệ.",
           "• Hôm nay là lúc biến các ý tưởng trên trang giấy thành những bài thuyết trình đầy cảm hứng trước thầy cô và bạn bè.",
@@ -417,6 +418,7 @@ export const module4: Lesson[] = [
         title: "Tổng Quan Lộ Trình 12 Tiết Học Chuyên Đề AI",
         visualType: "diagram",
         content: [
+          "⏱️ Thời lượng: 4 phút",
           "Tóm tắt toàn bộ chặng đường tri thức chúng ta đã cùng nhau vượt qua đầy tự hào:",
           "• Tiết 1-3: Làm quen khái niệm lịch sử, 4 thành phần cốt lõi và phân loại AI hẹp.",
           "• Tiết 4-6: NLP, Thị giác máy tính, Học máy tự học và kỹ năng viết Prompt RTCO.",
@@ -445,6 +447,7 @@ export const module4: Lesson[] = [
         title: "Báo Cáo Dự Án Nhóm 1 & 2: Sáng Tạo Nội Dung",
         visualType: "comparison",
         content: [
+          "⏱️ Thời lượng: 10 phút (mỗi nhóm báo cáo tối đa 5 phút)",
           "Sân khấu trình diễn của hai nhóm đầu tiên tập trung vào việc làm chủ công cụ AI tạo sinh nghệ thuật:",
           "Hãy quan sát các sản phẩm sáng tạo độc đáo của các bạn học sinh."
         ],
@@ -471,6 +474,7 @@ export const module4: Lesson[] = [
         title: "Báo Cáo Dự Án Nhóm 3 & 4: Giải Pháp Xã Hội",
         visualType: "comparison",
         content: [
+          "⏱️ Thời lượng: 10 phút (mỗi nhóm báo cáo tối đa 5 phút)",
           "Sân khấu trình bày của hai nhóm tiếp theo hướng tới giải quyết các vấn đề thiết thực của cộng đồng học đường:",
           "Hãy quan sát các ý tưởng giải pháp thông minh mang tính nhân văn sâu sắc."
         ],
@@ -497,7 +501,8 @@ export const module4: Lesson[] = [
         title: "Hoạt Động: Chấm Điểm Chéo (Peer Assessment)",
         visualType: "activity",
         content: [
-          "📋 Trải nghiệm chấm điểm công tâm khoa học (10 phút):",
+          "⏱️ Thời lượng: 7 phút",
+          "📋 Trải nghiệm chấm điểm công tâm khoa học:",
           "Mỗi học sinh sẽ nhận được 1 phiếu đánh giá chéo dự án của nhóm bạn dựa trên 3 tiêu chí:",
           "• 1. Tính sáng tạo & Ứng dụng AI khoa học (Tối đa 4 điểm).",
           "• 2. Tính logic, thực tế của giải pháp đề xuất (Tối đa 3 điểm).",
@@ -506,11 +511,11 @@ export const module4: Lesson[] = [
         ],
         activity: {
           title: "Chấm điểm chéo dự án học sinh",
-          duration: "10 Phút",
+          duration: "7 Phút",
           instructions: [
-            "Các nhóm bàn thảo luận nhanh trong 3 phút.",
-            "Thống nhất điểm số và ghi nhận xét ưu/nhược điểm cho các nhóm báo cáo.",
-            "Nộp phiếu đánh giá chéo cho giáo viên tổng hợp kết quả."
+            "Các nhóm bàn thảo luận nhanh trong 2 phút.",
+            "Thống nhất điểm số và ghi nhận xét ưu/nhược điểm cho các nhóm báo cáo (3 phút).",
+            "Nộp phiếu đánh giá chéo cho giáo viên tổng hợp kết quả (2 phút)."
           ],
           tips: "Hãy hướng học sinh tới việc khen ngợi sáng tạo trước, sau đó góp ý chân thành về giải pháp thực tế sau."
         },
@@ -523,6 +528,7 @@ export const module4: Lesson[] = [
         title: "Trắc Nghiệm Tương Tác: Tổng Ôn Toàn Bộ Chuyên Đề",
         visualType: "quiz",
         content: [
+          "⏱️ Thời lượng: 5 phút",
           "Thử thách trí tuệ cuối cùng! Hãy cùng tham gia cuộc thi trắc nghiệm tổng ôn kiến thức toàn bộ 12 tiết học AI nhé."
         ],
         interactiveQuiz: {
@@ -545,6 +551,7 @@ export const module4: Lesson[] = [
         title: "Thông Điệp Về Học Tập Suốt Đời (Lifelong Learning)",
         visualType: "concepts",
         content: [
+          "⏱️ Thời lượng: 3 phút",
           "Hành trình tri thức không khép lại sau 12 tiết học chuyên đề này:",
           "• Công nghệ AI thay đổi từng ngày, những gì chúng ta học hôm nay có thể lỗi thời ngày mai.",
           "• Kỹ năng sinh tồn mạnh mẽ nhất là Khả năng tự học suốt đời (Lifelong Learning).",
@@ -560,12 +567,13 @@ export const module4: Lesson[] = [
         title: "Bế Mạc Chuyên Đề & Chứng Nhận Hoàn Thành",
         visualType: "summary",
         content: [
+          "⏱️ Thời lượng: 3 phút",
           "🏆 THẦY/CÔ CHÚC MỪNG CẢ LỚP ĐÃ HOÀN THÀNH XUẤT SẮC CHUYÊN ĐỀ ỨNG DỤNG AI!",
           "• Cảm ơn các em đã cùng sáng tạo, cùng tranh luận và đồng hành suốt 12 tuần học vừa qua.",
           "• Thầy/Cô xin trao tặng CHỨNG NHẬN ẢO: 'Chiến binh Làm chủ Công nghệ AI tương lai' cho tất cả học sinh lớp mình!",
           "👉 Hãy luôn giữ vững niềm tin, sự tử tế và khát khao làm chủ tri thức khoa học công nghệ nhé!"
         ],
-        visualUrl: `${import.meta.env.BASE_URL}trophy-tot-nghiep.png`,
+        visualUrl: "/trophy-tot-nghiep.png",
         visualLabel: "Vinh danh học sinh hoàn thành chuyên đề AI",
         speakerNotes: "Gửi lời chào tạm biệt đầy xúc động tới cả lớp. Có thể tổ chức chụp ảnh lưu niệm toàn bộ lớp học cùng các bức tranh AI trưng bày."
       }
