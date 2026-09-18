@@ -573,7 +573,7 @@ export const module4: Lesson[] = [
           "• Thầy/Cô xin trao tặng CHỨNG NHẬN ẢO: 'Chiến binh Làm chủ Công nghệ AI tương lai' cho tất cả học sinh lớp mình!",
           "👉 Hãy luôn giữ vững niềm tin, sự tử tế và khát khao làm chủ tri thức khoa học công nghệ nhé!"
         ],
-        visualUrl: "/trophy-tot-nghiep.png",
+        visualUrl: `${import.meta.env.BASE_URL}trophy-tot-nghiep.png`,
         visualLabel: "Vinh danh học sinh hoàn thành chuyên đề AI",
         speakerNotes: "Gửi lời chào tạm biệt đầy xúc động tới cả lớp. Có thể tổ chức chụp ảnh lưu niệm toàn bộ lớp học cùng các bức tranh AI trưng bày."
       }
